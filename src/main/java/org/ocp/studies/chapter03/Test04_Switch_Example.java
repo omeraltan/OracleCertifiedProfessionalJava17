@@ -13,6 +13,18 @@ public class Test04_Switch_Example {
                 case 7, 8, 9:       System.out.print("Summer");
                 case 10, 11, 12:    System.out.print("Fall");
         }
+
+       /*
+            Selecting switch Data Types:
+            ----------------------------
+            ■ int and Integer
+            ■ byte and Byte
+            ■ short and Short
+            ■ char and Character
+            ■ String
+            ■ enum values
+            ■ var (if the type resolves to one of the preceding types)
+        */
     }
 
 }
