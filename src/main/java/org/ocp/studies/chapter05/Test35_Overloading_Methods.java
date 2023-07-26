@@ -18,5 +18,16 @@ public class Test35_Overloading_Methods {
         System.out.print(glide("a"));
         System.out.print(glide("a","b"));
         System.out.print(glide("a","b","c"));
+
+        final var a = new Test();
+        a.name = "Ömer";
+        //a = new Test();
     }
+
+}
+
+class Test{
+    public static String name;
+
+
 }
